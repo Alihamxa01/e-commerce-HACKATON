@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 const ProductGrid = () => {
   const products = [
     {
@@ -6,24 +7,36 @@ const ProductGrid = () => {
       name: "Cantilever Chair",
       code: "Y523201",
       price: "$42.00",
+      width: 200,
+      height: 200,
+      alt: "A modern cantilever chair with sleek design",
     },
     {
       image: "/4.png",
       name: "Cantilever Chair",
       code: "Y523201",
       price: "$42.00",
+      width: 200,
+      height: 200,
+      alt: "Elegant cantilever chair for home or office",
     },
     {
       image: "/5.png",
       name: "Cantilever Chair",
       code: "Y523201",
       price: "$42.00",
+      width: 200,
+      height: 200,
+      alt: "Stylish cantilever chair with a unique design",
     },
     {
       image: "/6.png",
       name: "Cantilever Chair",
-      code: "Y523201" ,
+      code: "Y523201",
       price: "$42.00",
+      width: 200,
+      height: 200,
+      alt: "Comfortable cantilever chair with a modern finish",
     },
   ];
 
@@ -41,8 +54,10 @@ const ProductGrid = () => {
             <div className="flex items-center justify-center h-64 bg-[#F6F7FB]">
               <Image
                 src={product.image}
-                alt={product.name}
-                className="object-contain h-full"
+                alt={product.alt}
+                width={product.width}
+                height={product.height}
+                className="object-contain"
               />
             </div>
             <div className="absolute top-0 left-0 w-full h-full hover:text-white flex items-center justify-center group-hover:border-[#1A0B5B] border-2">

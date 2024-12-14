@@ -11,6 +11,8 @@ export default function ProductFeature() {
               src="/trending1.png"
               alt="B&B Italian Sofa"
               className="relative z-10 w-full max-w-[300px] md:max-w-[400px] mx-auto"
+              width={300}
+              height={400}
             />
           </div>
   

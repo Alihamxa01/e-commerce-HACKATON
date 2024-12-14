@@ -19,6 +19,14 @@ export default function page() {
   return (
     <div>
 
+
+
+
+
+
+
+
+
 {/* <Header/>
 <Navbar/> */}
 <Home/>
@@ -67,6 +75,8 @@ export default function page() {
 <br/>
 <Blog/>
 <Footer/>
+
+
 
 
 
