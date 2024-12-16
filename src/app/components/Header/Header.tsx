@@ -54,6 +54,7 @@ export default function Header() {
               <FaChevronDown />
             </div>
           </div>
+
           <div className=" flex flex-row items-center justify-center  ">
             <h1 className="h-[16px]  font-sans font-semibold text-sm sm:text-[16px] leading-4">
               USD
@@ -62,14 +63,20 @@ export default function Header() {
               <FaChevronDown />
             </div>
           </div>
+          <a href="/Accounts">
           <div className=" flex flex-row items-center justify-center ">
+          
             <h1 className="h-[16px]  font-sans font-semibold text-sm sm:text-[16px] leading-4">
               Login
             </h1>
-            <div className=" flex justify-center items-center  mx-1 w-[16px] h-[16px] ">
+            
+            <div className=" flex justify-center items-center  mx-1 w-[1   0px] h-[10px] ">
               <FiUser />
             </div>
+           
           </div>
+          </a>
+          
           <div className=" flex flex-row items-center justify-center ">
             <h1 className="h-[16px]  font-sans font-semibold text-sm sm:text-[16px] leading-4">
               Wishlist
@@ -78,9 +85,11 @@ export default function Header() {
               <FaRegHeart />
             </div>
           </div>
+
           <div className="w-[24px] h-[24px]">
             <LuShoppingCart  />
           </div>
+
         </div>
       </div>
     </div>

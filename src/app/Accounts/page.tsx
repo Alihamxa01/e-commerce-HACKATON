@@ -4,15 +4,14 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <div>
-<div className="bg-[#F6F5FF] max-w-screen-2xl h-[286px]  justify-start items-center flex ">
-<h1 className="text-4xl text-[#101750] font-extrabold justify-start items-center flex ml-5 sm:ml-32 ">About Us</h1>
-<br/>
-<div>
-<p className="text-gray-600">
-              Home &gt; Pages &gt; <span className="text-blue-600">Contact Us</span>
-            </p>
-            </div>
+<div className="bg-[#F6F5FF] max-w-screen-2xl h-[286px] justify-start items-center flex">
+  <h1 className="text-4xl text-[#101750] font-extrabold justify-start items-center flex ml-5 sm:ml-32">About Us</h1>
+  <br/>
+  <p className="text-gray-600 mt-4 flex flex-col">
+    Home &gt; Pages &gt; <span className="text-blue-600  flex flex-col">Contact Us</span>
+  </p>
 </div>
+
 
 
 

@@ -63,7 +63,7 @@ function Navbar() {
                       <Link href="/About">About</Link>
                     </li>
                     <li className="px-4 py-2 hover:bg-gray-200 rounded-3xl">
-                      <Link href="/shop-grid">Shop Grid</Link>
+                      <Link href="/ShopGrid">Shop Grid</Link>
                     </li>
                     <li className="px-4 py-2 hover:bg-gray-200 rounded-3xl">
                       <Link href="/shop-list">Shop List</Link>
